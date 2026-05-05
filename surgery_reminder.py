@@ -127,7 +127,7 @@ def main():
         f"【手术间检查提醒】\n"
         f"本周负责人：{responsible}\n"
         f"检查范围：{room_range}\n"
-        f"请按时完成检查。"
+        f"本周轮到你检查手术室啦！"
     )
 
     mobiles = [PERSON_MOBILE_MAP[responsible]]
