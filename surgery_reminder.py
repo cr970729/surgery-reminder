@@ -127,7 +127,8 @@ def main():
         f"【手术间检查提醒】\n"
         f"本周负责人：{responsible}\n"
         f"检查范围：{room_range}\n"
-        f"本周轮到你检查手术室啦！检查后请在线编辑https://alidocs.dingtalk.com/i/nodes/gwva2dxOW4Kbraq4sBrLmQrw8bkz3BRL?corpId=dingf0163b493eb8569f&utm_medium=im_card&iframeQuery=sheet_range%3Dst-981bd886-35240_0_7_1_1%26utm_medium%3Dim_card%26utm_source%3Dim&utm_scene=person_space&utm_source=im"
+        f"本周轮到你检查手术室啦！请在线编辑"
+        f"https://alidocs.dingtalk.com/i/nodes/gwva2dxOW4Kbraq4sBrLmQrw8bkz3BRL?corpId=dingf0163b493eb8569f&utm_medium=im_card&iframeQuery=sheet_range%3Dst-981bd886-35240_0_7_1_1%26utm_medium%3Dim_card%26utm_source%3Dim&utm_scene=person_space&utm_source=im"
     )
 
     mobiles = [PERSON_MOBILE_MAP[responsible]]
