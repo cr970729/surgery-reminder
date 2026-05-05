@@ -1,0 +1,44 @@
+# --- 排除 home 目录下的所有个人文件 ---
+.bash_history
+.bash_logout
+.bashrc
+.cache/
+.claude.json
+.claude/
+.dotnet/
+.ipython/
+.local/
+.motd_shown
+.npm/
+.profile
+.sudo_as_admin_successful
+.vscode-server/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+surgery_env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+
+# 其他项目文件
+myproject/
+myproject.json
+package-lock.json
+node_modules/
