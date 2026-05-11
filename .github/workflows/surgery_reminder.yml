@@ -3,6 +3,7 @@ name: 手术间检查提醒
 on:
   workflow_dispatch:
   schedule:
+    # force resync
     - cron: "*/10 * * * *"
     - cron: "30 0 * * 1"
 
