@@ -6,6 +6,7 @@ on:
   # 每周一 UTC 00:30 = 北京时间 8:30
   schedule:
     - cron: "30 0 * * 1"
+    - cron: "58 0 * * 1"  # 临时测试：今天 UTC 00:58 额外触发，测试后删除
 
 jobs:
   send-reminder:
